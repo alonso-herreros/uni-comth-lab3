@@ -142,7 +142,7 @@ PXY = [0.5 0.5 0 0; 0 0.5 0.5 0; 0 0 0.5 0.5; 0.5 0 0 0.5];
 
 disp("Capacity of the channel: " + Cmax);
 
-disp("Optimal input distribution: ");
+disp("Optimal input distribution for p(x): ");
 disp(pXmax);
 
 %% 2. Find the capacity of a channel with given transition probability
@@ -153,7 +153,7 @@ PXY_2 = [0.84 0.1 0.05 0.01; 0.1 0.75 0.1 0.05; 0.05 0.1 0.75 0.1; 0.01 0.05 0.1
 
 disp("Capacity of the 2nd channel: " + Cmax_2);
 
-disp("Optimal input distribution (2nd channel): ");
+disp("Optimal input distribution for p(x) (2nd channel): ");
 disp(pXmax_2);
 
 

@@ -30,10 +30,10 @@ Mutual information between Y and Y: -2.2204e-16
 #### Section 2 ####
  
 Capacity of the channel: 1
-Optimal input distribution: 
+Optimal input distribution for p(x): 
     0.2000    0.3000    0.2000    0.3000
 
 
 Capacity of the 2nd channel: 1.0135
-Optimal input distribution (2nd channel): 
+Optimal input distribution for p(x) (2nd channel): 
     0.3000    0.2000    0.2000    0.3000

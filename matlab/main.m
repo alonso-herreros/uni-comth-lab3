@@ -118,7 +118,7 @@ disp("Mutual information between X and X: " + IXX);
 
 %% 4. Find the mutual information between Y and Y
 
-% IYY = estimateMutualInformation(prY, prY, prY.*prY');
+IYY = estimateMutualInformation(prY, prY, prY.*prY');
 
 disp("Mutual information between Y and Y: " + IYY);
 

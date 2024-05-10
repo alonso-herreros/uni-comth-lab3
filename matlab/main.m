@@ -53,7 +53,7 @@ title("Probability distribution of Y. Average: " + mean(prY));
 
 disp("Entropy of Y: " + HY);
 
-%% 3. Compare this value against the maximum possible for a random variable with the
+%% 6. Compare this value against the maximum possible for a random variable with the
 %  same alphabet
 
 % When the symbols are equally likely => we have the maximun entropy:

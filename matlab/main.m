@@ -57,7 +57,7 @@ disp("Entropy of Y: " + HY);
 %  same alphabet
 
 % When the symbols are equally likely => we have the maximun entropy:
-% max(H(Y)) = log2(My) = log2(10)
+% max(H(Y)) = log2(My) = log2(4)
 
 disp("Maximum entropy: " + log2(length(aY)));
 

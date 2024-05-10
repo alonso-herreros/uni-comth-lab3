@@ -61,7 +61,7 @@ disp("Entropy of Y: " + HY);
 
 disp("Maximum entropy: " + log2(length(aY)));
 
-%% 1.2 Estimation of joint and conditional entropies
+%% MARK: 1.2 Estimation of joint and conditional entropies
 
 disp(" ")
 disp("=== Section 1.2 ===")
@@ -96,7 +96,7 @@ disp("Conditional entropy of X given Y: " + HXcY);
 
 disp("Conditional entropy of Y given X: " + HYcX);
 
-%% 1.3 Estimation of joint and conditional entropies
+%% MARK: 1.3 Estimation of joint and conditional entropies
 
 disp(" ")
 disp("=== Section 1.3 ===")

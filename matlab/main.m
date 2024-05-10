@@ -81,8 +81,8 @@ disp("Alphabet of X given Y=1:");
 disp(unique(X(Y==1)))
 
 figure(3);
-plot(prXY(:,1))
-title("Probability distribution of X given Y=1. Average: " + mean(prXY(:,1)));
+plot(prXY(:,1) / prY(1))
+title("Probability distribution of X given Y=1. Average: " + mean(prXY(:,1)/prY(1)));
 
 %% 3. Estimate the conditional entropy of X given Y
 

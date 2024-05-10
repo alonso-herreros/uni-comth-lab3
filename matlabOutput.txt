@@ -1,0 +1,28 @@
+Alphabet of X:
+     1     2     3     4     5     6     7     8     9    10
+
+
+Entropy of X: 3.3219
+Maximum entropy: 3.3219
+Alphabet of Y:
+     1     2     3     4
+
+
+Entropy of Y: 1.971
+Maximum entropy: 2
+ 
+=== Section 1.2 ===
+ 
+Joint entropy of X and Y: 4.4474
+Alphabet of X given Y=1:
+     2     3     4     5     6     7     8     9
+
+
+Conditional entropy of X given Y: 2.4764
+Conditional entropy of Y given X: 1.1254
+ 
+=== Section 1.3 ===
+ 
+Mutual information between X and Y: 0.8455
+Mutual information between X and X: 4.4409e-16
+Mutual information between Y and Y: -2.2204e-16
